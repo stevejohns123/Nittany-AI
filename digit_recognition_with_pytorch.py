@@ -2,7 +2,34 @@
 """Digit Recognition with PyTorch
 Original file is located at
     https://colab.research.google.com/drive/1ixOu1DE61NzDqaibojOlg3VwFA2vcSxG
+# Digit Recognition with PyTorch
 
+## Description
+This project implements a neural network for recognizing handwritten digits using the MNIST dataset. It demonstrates fundamental concepts of deep learning such as model architecture, training, evaluation, and visualization of predictions using PyTorch. This project serves as an excellent starting point for beginners in machine learning and deep learning.
+
+## Installation Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/stevejohns123/digit_recognition_with_pytorch.git
+   cd digit_recognition_with_pytorch
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+pip install torch torchvision matplotlib numpy pandas
+python digit_recognition_with_pytorch.py
+Contributors
+Steven Johnson (GitHub: stevejohns123)
+References
+Dataset: MNIST Dataset (Automatically downloaded through PyTorch's torchvision library)
+Framework: PyTorch Documentation
+Tutorials: Additional resources for understanding MNIST classification:
+PyTorch MNIST Tutorial
+Towards Data Science: Building Neural Networks with PyTorch
+Code Standards
+Follow PEP 8 standards for Python code.
+Ensure that all functions and classes are properly documented.
+Include comments to explain important parts of the code.
+Licensing
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 import numpy as np
 import pandas as pd
