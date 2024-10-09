@@ -1,3 +1,26 @@
+# Predicting Flower Types with Logistic Regression
+
+## Description
+This project uses a Logistic Regression model to predict the species of iris flowers based on their sepal and petal dimensions. The Iris dataset is a classic dataset in machine learning and is widely used for classification tasks. This project is suitable for beginners looking to understand how to work with datasets, train machine learning models, and evaluate their performance.
+
+## Installation Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/stevejohns123/predicting_flower_types.git
+   cd predicting_flower_types
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+pip install pandas scikit-learn
+python predict_flower.py
+Contributors
+Steven Johnson (GitHub: stevejohns123)
+References
+Dataset: Iris Dataset from the UCI Machine Learning Repository
+Framework: Scikit-learn Documentation
+Tutorials: Additional resources for understanding Logistic Regression:
+Scikit-learn Logistic Regression Guide
+Towards Data Science: Understanding Logistic Regression
+
 import pandas as pd
 path="/content/drive/MyDrive/Dataset/Iris.csv"
 df=pd.read_csv(path)
